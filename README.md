@@ -104,17 +104,6 @@ GPS coordinates are parsed and converted into a Google Maps link.
 - AI-based crash severity analysis  
 - Emergency service auto-dispatch  
 
----
-
-## 🧑‍💻 Contributors
-
-- **B. Lohitha**
-- P. Ramtej  
-- P. A. Ravi Tejaswini  
-- M. Lisa Jennet  
-
-Department of Electronics & Communication Engineering  
-RGUKT – RK Valley
 
 ---
 
