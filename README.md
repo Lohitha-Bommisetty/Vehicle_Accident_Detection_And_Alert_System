@@ -1,10 +1,10 @@
-# 🚗 Vehicle Accident Detection and Alert System
+#  Vehicle Accident Detection and Alert System
 
 An **IoT-based embedded safety system** that automatically detects vehicle accidents using motion sensors and instantly alerts emergency contacts with precise GPS location via GSM communication.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Road accidents often result in **delayed medical assistance**, especially in remote or low-visibility areas where victims cannot call for help. Traditional accident reporting relies on human intervention, which may not always be possible during severe crashes.
 
@@ -12,7 +12,7 @@ This project addresses this challenge by **automatically detecting accidents** a
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Automatically detect vehicle accidents using real-time sensor data  
 - Identify impact, rollover, tilt, and abnormal vehicle orientation  
@@ -22,7 +22,7 @@ This project addresses this challenge by **automatically detecting accidents** a
 
 ---
 
-## 🧠 System Overview
+##  System Overview
 
 The system continuously monitors vehicle motion using an **MPU6050 accelerometer and gyroscope** connected to an **ESP32 microcontroller**.
 
@@ -34,7 +34,7 @@ When an abnormal event is detected:
 
 ---
 
-## 🧩 Hardware Components
+##  Hardware Components
 
 | Component | Description |
 |---------|------------|
@@ -46,7 +46,7 @@ When an abnormal event is detected:
 
 ---
 
-## 🔧 Software & Tools
+##  Software & Tools
 
 - Arduino IDE  
 - Embedded C / C++  
@@ -56,12 +56,12 @@ When an abnormal event is detected:
 
 ---
 
-## ⚙️ Working Principle
+##  Working Principle
 
-### 1️⃣ Continuous Monitoring
+### 1. Continuous Monitoring
 The MPU6050 continuously measures acceleration and rotation along all three axes.
 
-### 2️⃣ Accident Detection Logic
+### 2. Accident Detection Logic
 An accident is detected based on:
 - Sudden acceleration spikes  
 - Abnormal tilt or rollover angles  
@@ -69,16 +69,16 @@ An accident is detected based on:
 
 False triggers caused by road bumps are minimized using debounce logic.
 
-### 3️⃣ GPS Location Acquisition
+### 3. GPS Location Acquisition
 GPS coordinates are parsed and converted into a Google Maps link.
 
-### 4️⃣ Emergency Alert Mechanism
+### 4. Emergency Alert Mechanism
 - SMS alert with location link  
 - Automated emergency phone call  
 
 ---
 
-## 📊 Accident Detection Thresholds
+##  Accident Detection Thresholds
 
 | Event | Typical g-Force |
 |-----|---------------|
@@ -88,7 +88,7 @@ GPS coordinates are parsed and converted into a Google Maps link.
 
 ---
 
-## 🌍 Applications
+##  Applications
 
 - Vehicle safety systems  
 - Fleet monitoring  
@@ -97,7 +97,7 @@ GPS coordinates are parsed and converted into a Google Maps link.
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Mobile application integration  
 - Cloud data logging  
@@ -107,6 +107,3 @@ GPS coordinates are parsed and converted into a Google Maps link.
 
 ---
 
-## ⭐ Show Your Support
-
-If you found this project useful, **star ⭐ the repository** and feel free to fork or contribute!
